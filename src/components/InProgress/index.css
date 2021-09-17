@@ -1,0 +1,22 @@
+.todoTable {
+  margin: 10px;
+}
+
+.todoContainer {
+  margin: 10px;
+  padding: 10px;
+}
+
+h3 {
+  margin: 10px;
+}
+
+.delete {
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.columnButton {
+  background-color: black;
+  color: azure;
+}

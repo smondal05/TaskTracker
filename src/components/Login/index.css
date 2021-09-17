@@ -1,0 +1,22 @@
+.loginForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin: 2rem;
+}
+
+.invalid_info {
+  color: red;
+}
+
+.login_logo {
+  height: 30px;
+}
+
+.logo_content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

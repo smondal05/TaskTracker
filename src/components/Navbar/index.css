@@ -1,0 +1,38 @@
+.sideNav {
+  width: 240px;
+  background: #ada9b5;
+  position: absolute;
+  height: 95vh;
+  padding: 0 30px;
+  left: -100%;
+  transition: all 1s;
+  z-index: 1;
+}
+
+.sideNav.active {
+  left: 0;
+  z-index: 1;
+}
+
+ul {
+  padding: 0;
+}
+
+ul li {
+  list-style-type: none;
+  margin: 10px 0;
+}
+
+ul li .link {
+  color: #4b4e4f;
+  text-decoration: none;
+  font-size: 16px;
+  display: block;
+  padding: 10px 15px;
+  border-radius: 6px;
+}
+
+ul li .link:hover,
+ul li .link:active {
+  background: #869093;
+}
