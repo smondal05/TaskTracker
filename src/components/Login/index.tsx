@@ -28,7 +28,7 @@ const Login = (props: { history: string[] }) => {
   const openNotificationWithIcon = (errorInfo: string) => {
     notification["error"]({
       message: "Login Failed",
-      description: { errorInfo },
+      description: errorInfo,
     });
   };
 
